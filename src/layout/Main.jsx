@@ -1,4 +1,4 @@
-import styles from './Layout.module.css';
+import styles from './Main.module.css';
 import cn from 'classnames';
 import {Modal, Pagination, Sort} from "../components";
 import {UserList} from "../components";
@@ -6,7 +6,7 @@ import {Filter} from "../components";
 import {useEffect, useState} from "react";
 import {useGetUsersQuery} from "../services/UserService";
 
-export const Layout = () => {
+export const Main = () => {
 
     const [usersData, setUsersData] = useState([]);
     const [page, setPage] = useState(0);
