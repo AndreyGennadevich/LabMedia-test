@@ -1,0 +1,25 @@
+.sortWrapper {
+    display: flex;
+    margin-bottom: 14px;
+    font-size: 10px;
+    line-height: 14px;
+    color: var(--menu-font-color);
+}
+
+.btn {
+    margin-left: 10px;
+    padding: 0 1px;
+    background: none;
+    border: none;
+    font-size: 10px;
+    line-height: 14px;
+    color: var(--menu-font-color);
+    border-bottom: 1px dashed var(--menu-font-color);
+    cursor: pointer;
+    outline-color: var(--blue);
+}
+
+.active {
+    color: var(--black);
+    border-color: var(--black);
+}

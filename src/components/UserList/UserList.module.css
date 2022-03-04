@@ -1,0 +1,55 @@
+.table {
+    width: 100%;
+    margin-bottom: 16px;
+    background: #FFFFFF;
+    border-radius: 7px;
+    font-size: 10px;
+    line-height: 14px;
+    border-collapse: collapse;
+}
+
+.table tr {
+    font-weight: var(--font-weight-medium);
+    border-bottom: 1px solid #F7F7F7;
+}
+
+.thead {
+    color: var(--menu-font-color);
+}
+
+.thead th {
+    padding-bottom: 20px;
+}
+
+th {
+    text-align: left;
+    padding: 16px;
+}
+
+.thClose {
+    text-align: center;
+}
+
+.thClose button {
+    padding: 0;
+    background: none;
+    border: none;
+    cursor: pointer;
+    outline-color: var(--blue);
+}
+
+.thClose button svg {
+    display: block;
+}
+
+.tbody th {
+    color: var(--info-font-color);
+    font-size: 12px;
+    line-height: 16px;
+}
+
+table .thName {
+    color: var(--blue);
+    font-weight: var(--font-weight-bold);
+}
+
